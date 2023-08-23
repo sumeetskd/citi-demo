@@ -1,0 +1,105 @@
+$primary-color: navy;
+$accent-color: orange;
+
+.dialog-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  padding-top: 0.9375rem;
+}
+
+mat-dialog-content {
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: $primary-color;
+}
+
+.form-row-single{
+  color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -4px;
+}
+
+.form-row {
+  color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -4px;
+}
+
+.remarks {
+  min-height: 10px;
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  flex-wrap: wrap;
+
+}
+
+mat-dialog-actions>*{
+  flex-basis: 100%;
+}
+.btn-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  min-width: 100px;
+  border-radius: 12px;
+
+
+}
+
+.submit {
+  // margin-right: 20px;
+  width: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.header {
+  background: linear-gradient(to right, #142737, #154f82);
+  align-items: start;
+}
+
+.custom-button-color {
+  background-color: #1c6aae;
+  color: white;
+}
+
+
+

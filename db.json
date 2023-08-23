@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "session": [
+    {
+      "customerName": "AAV",
+      "sessionName": "DVAD",
+      "remarks": "Thus",
+      "id": 1
+    },
+    {
+      "customerName": "hhb c",
+      "sessionName": "gggjkb",
+      "remarks": "weqe",
+      "id": 2
+    },
+    {
+      "customerName": "eqrf",
+      "sessionName": "efewqf",
+      "remarks": "efeq",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+$primary-color: #003b6f;
+$secondary-color: #0468c0;
+$box-shadow-color: rgb(126, 144, 150);
+$username-bg-color: aliceblue;
+$hover-bg-color: rgba(15, 79, 116, 0.744);
+$hover-text-color: rgb(170, 184, 197);
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+  box-shadow: 0px 0px 14px 10px $box-shadow-color;
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    
+    .logo-image {
+      height: 2.5rem;
+      width: auto;
+      max-height: 100%;
+    }
+  }
+
+  .center-title {
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+
+  .login-button {
+    margin-left: auto;
+
+    &:hover {
+      background-color: $hover-bg-color;
+      color: $hover-text-color;
+      cursor: auto;
+    }
+  }
+
+  #username {
+    background-color: $username-bg-color;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-weight: bolder;
+  }
+
+  .mat-icon {
+    color: aliceblue;
+  }
+}
+
+
